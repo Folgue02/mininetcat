@@ -13,6 +13,7 @@ MiniNetcat
 
     Usage:
         mininetcat {{targetip}} {{targetport}}");
+        std::process::exit(0);
     }
     match lib::run(&arguments) {
         Ok(_) => (),
